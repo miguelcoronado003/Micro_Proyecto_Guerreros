@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Ga Maamli';
+    src: url(../font/GaMaamli-Regular.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Ga Maamli'; 
+    background-image: url('https://i.gifer.com/26pj.gif');
+    background-size: cover; /* Ajusta la imagen al tamaño de la ventana */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+}
+
+.container {
+    background: linear-gradient(to right, #415819, #125538, #00a35c); /* Degradado de color */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #6df361; 
+}
+
+.btn-primary {
+    background-color: #3498db; 
+    border-color: #2980b9; 
+}
+
+.btn-info {
+    background-color: #2980b9; 
+}
+
+.btn-success {
+    background-color: #27ae60; 
+}
+
+ 
+
+.color1{
+    color: #6df361
+}
+.color2{
+    background: linear-gradient(to Left, #c8d8ad, #5c987e, #33a775); /* Degradado de color */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/*.html
+font face revisar */

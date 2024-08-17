@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de Guerreros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../PUBLIC/assets/css/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between">
+            <h1>Selecciona tus Guerreros</h1>
+        </div>
+        <!-- espacio para taer informacion del alias de j1 y j2 desde el local -->
+        <div id="jugadores" class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+            <div class="container color2">
+                <div id="jugador1" class="jugador color1"></div>
+            </div>
+            <div class="container color2">
+                <div id="jugador2" class="jugador color1"></div>
+            </div>
+        </div>
+        <ul id="listaGuerreros" class="list-group">
+            <!-- Aquí se generará la lista de guerreros desde main.js -->
+        </ul>
+<!-- Boton para continuar en zona de combate -->
+        <div id="botonIniciarJuego" class="text-center mt-4 d-none">
+            <button id="iniciarJuegoBtn" class="btn btn-success">Iniciar Juego</button>
+        </div>
+    </div>
+
+    <script src="../models/main.js"></script>
+    <script src="../../PUBLIC/assets/js/seleccionguerreros.js"></script>
+</body>
+</html>
+
